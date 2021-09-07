@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Input: 5",
+      "setup": "",
+      "run": "dotnet run",
+      "input": "5",
+      "output": "odd",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Input: 60",
+      "setup": "",
+      "run": "dotnet run",
+      "input": "60",
+      "output": "even",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
